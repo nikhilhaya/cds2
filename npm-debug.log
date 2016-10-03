@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-jshint',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\package.json
+5 warn package.json daemonpoc@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\bcrypt-nodejs\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\body-parser\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\connect-flash\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\cookie-parser\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\ejs\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\express\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\express-session\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\express-validator\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\gulp\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\gulp-jade\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\jsonwebtoken\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\method-override\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\morgan\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\passport\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\passport-local\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\pg\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\pg-hstore\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\sequelize\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\sequelize-cli\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\node_modules\winston\package.json
+26 info package.json bcrypt-nodejs@0.0.3 No license field.
+27 info package.json connect-flash@0.1.1 No license field.
+28 info package.json passport-local@1.0.0 No license field.
+29 info package.json pg-hstore@2.3.2 No license field.
+30 verbose readDependencies loading dependencies from C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4\package.json
+31 silly cache add args [ 'gulp-jshint', null ]
+32 verbose cache add spec gulp-jshint
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'gulp-jshint',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'gulp-jshint',
+33 silly cache add   rawSpec: '',
+33 silly cache add   spec: 'latest',
+33 silly cache add   type: 'tag' }
+34 silly addNamed gulp-jshint@latest
+35 verbose addNamed "latest" is being treated as a dist-tag for gulp-jshint
+36 info addNameTag [ 'gulp-jshint', 'latest' ]
+37 silly mapToRegistry name gulp-jshint
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry data Result {
+40 silly mapToRegistry   raw: 'gulp-jshint',
+40 silly mapToRegistry   scope: null,
+40 silly mapToRegistry   name: 'gulp-jshint',
+40 silly mapToRegistry   rawSpec: '',
+40 silly mapToRegistry   spec: 'latest',
+40 silly mapToRegistry   type: 'tag' }
+41 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+42 verbose addNameTag registry:https://registry.npmjs.org/gulp-jshint not in flight; fetching
+43 verbose request uri https://registry.npmjs.org/gulp-jshint
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 5:55:58 PM
+46 verbose request id 13a3d028da9786de
+47 http request GET https://registry.npmjs.org/gulp-jshint
+48 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 10.74.91.103:80
+49 info attempt registry request try #2 at 5:56:29 PM
+50 http request GET https://registry.npmjs.org/gulp-jshint
+51 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 10.74.91.103:80
+52 info attempt registry request try #3 at 5:57:50 PM
+53 http request GET https://registry.npmjs.org/gulp-jshint
+54 verbose stack Error: tunneling socket could not be established, cause=connect ETIMEDOUT 10.74.91.103:80
+54 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+54 verbose stack     at ClientRequest.g (events.js:260:16)
+54 verbose stack     at emitOne (events.js:77:13)
+54 verbose stack     at ClientRequest.emit (events.js:169:7)
+54 verbose stack     at Socket.socketErrorListener (_http_client.js:269:9)
+54 verbose stack     at emitOne (events.js:77:13)
+54 verbose stack     at Socket.emit (events.js:169:7)
+54 verbose stack     at emitErrorNT (net.js:1269:8)
+54 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+54 verbose stack     at process._tickCallback (node.js:356:17)
+55 verbose cwd C:\Users\nikhil_sharma12\Downloads\DaemonPOC1\DaemonPOC4
+56 error Windows_NT 6.1.7601
+57 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-jshint" "--save-dev"
+58 error node v4.5.0
+59 error npm  v2.15.9
+60 error code ECONNRESET
+61 error network tunneling socket could not be established, cause=connect ETIMEDOUT 10.74.91.103:80
+61 error network This is most likely not a problem with npm itself
+61 error network and is related to network connectivity.
+61 error network In most cases you are behind a proxy or have bad network settings.
+61 error network
+61 error network If you are behind a proxy, please make sure that the
+61 error network 'proxy' config is set properly.  See: 'npm help config'
+62 verbose exit [ 1, true ]
