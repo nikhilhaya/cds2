@@ -1,132 +1,73 @@
-﻿<head>
-    <title></title>
-    <meta name="viewport"content="width-device-width" />
-     <link href="Bootstrap/Content/bootstrap.min.css" rel="stylesheet" />
-
-    <style>
-
-       
-        .customDiv {
-            margin:3px;
-            min-height:15px;
-            background-color:silver;
-            text-align:center;
-            font-size:large;
-
-        }
-
-         </style>
-
-</head>
-
-<body>
-    <br />
-    <div class="container">
     <form class="log" method="post" ng-submit="company.createCompany()">
         <div class="row">
             <div class="col-xs-12 customDiv">
                 Company Information
             </div>
         </div>
-
         <br />        
-         <div class="row">
-
-             
-             
-             <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
-             </div>
-
-        
-            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                <label for="inputEmail" class="control-label">Compnay Name:</label>
-              </div>
-
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <input class="form-control" id="inputCompany" placeholder="Compnay Name" type="text" name="name" ng-model="company.companyData.name">
-            </div>
-
-
-             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                 <label for="inputEmail" class="control-label">Company Abrev:</label>
-             </div>
-
-             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                 <input class="form-control" id="inputCompany" placeholder="Company Abrev" name="abrev" ng-model="company.companyData.abrev">
-             </div>
-
-             <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
-             </div>
-
-
-
-         </div>
-       
-         <br />
         <div class="row">
+            <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
 
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="inputEmail" class="control-label">Company Name:</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <input class="form-control" id="inputCompany" placeholder="Compnay Name" type="text" name="name" ng-model="ompany.companyData.name">
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                     <label for="inputEmail" class="control-label">Company Abrev:</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <input class="form-control" id="inputCompany" placeholder="Company Abrev" name="abrev" ng-model="company.companyData.abrev">
+                </div>
             <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
             </div>
-
-
-            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                <label for="inputEmail" class="control-label">Weekend Max:</label>
-            </div>
-
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <input class="form-control" id="inputCompany" placeholder="Weekend Max" name="weekendmax" ng-model="company.companyData.weekendmax">
-            </div>
-
-
-            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                <label for="inputEmail" class="control-label">Terms:</label>
-            </div>
-
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <input class="form-control" id="inputCompany" placeholder="Terms" name="terms" ng-model="company.companyData.terms">
-            </div>
-
-            <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
-            </div>
-
-
-
         </div>
-   
+       
         <br />
-   
         <div class="row">
 
             <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
             </div>
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="inputEmail" class="control-label">Weekend Max:</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <input class="form-control" id="inputCompany" placeholder="Weekend Max" name="weekendmax" ng-model="company.companyData.weekendmax">
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <label for="inputEmail" class="control-label">Terms:</label>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <input class="form-control" id="inputCompany" placeholder="Terms" name="terms" ng-model="company.companyData.terms">
+                </div>
+            <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+            </div>
+        </div>
 
+        <br />
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+            </div>
 
             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 <label for="inputEmail" class="control-label">Company URL:</label>
             </div>
-
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <input class="form-control" id="inputCompany" placeholder="URL" name="url" ng-model="company.companyData.url">
             </div>
-
-
             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 <label for="inputEmail" class="control-label">Company Store Name:</label>
             </div>
-
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <input class="form-control" id="inputCompany" placeholder="Store Name" name="store" ng-model="company.companyData.store">
             </div>
-
             <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
             </div>
-
-
-
         </div>
 
         <br />
-    
     <div class="row">
         <div class="col-xs-12 customDiv">
             Support Contact Information
@@ -195,6 +136,13 @@
 
 
             <style>
+            .customDiv {
+                margin:3px;
+                min-height:15px;
+                background-color:silver;
+                text-align:center;
+                font-size:large;
+            }
             .btn-success{
                 position: absolute;
               left: 240px;
@@ -243,12 +191,12 @@
 
   
     
- </div>
+ <!-- </div> -->
 
 
 
 
     <script src="Bootstrap/Scripts/jquery-1.6.2.min.js"></script>
-</body>
+<!-- </body> -->
 
-</html>
+<!-- </html> -->
